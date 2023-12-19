@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - JOURNAL: "/"
-  - GALLERY: "/gallery/"  
-  - ABOUT: "/about/"
+  - JOURNAL: "https://noonanno.github.io/photorama/"
+  - GALLERY: "https://noonanno.github.io/photorama/gallery/"  
+  - ABOUT: "https://noonanno.github.io/photorama/about/"
 
 # All translation keys
 translations:
@@ -54,8 +54,8 @@ permalink: pretty
 paginate: 5
 paginate_path: "/page:num/"
 permalink: "/:title/"
-categories_path: "/category/"
-tags_path: "/tag/"
+categories_path: "/journal/category/"
+tags_path: "/journal/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
