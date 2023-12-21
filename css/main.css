@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: #eee;
-  background-color: #000;
+  color: #616161;
+  background-color: #FFF2D0;
 }
 p {
   line-height: 1.5;
@@ -21,13 +21,13 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #760824;
+  color: #000000;
   transition: color .4s;
   text-decorarion: none;
 }
 a:hover,
 a:focus {
-  color: #fff;
+  color: #007A6A;
      transition: color .3s;
     outline: none;
     text-shadow:none;
