@@ -1,7 +1,6 @@
 .section--postsWrapper
 {
     width: 100%;
-    background: #000;
     padding-top: 20px;
     position: relative;
     clear: both;
@@ -78,7 +77,6 @@
 
 .blockGroup-list li:nth-child(1).block .postArticle-title
 {
-    color: #fff;
     font-size: 1rem;
 }
 
@@ -119,7 +117,6 @@
 
 .blockGroup-list li .postArticle-title
 {
-    color: #fff;
     font-size: 0.75rem;
     line-height: 1.5;
 }
@@ -127,7 +124,6 @@
 .blockGroup-list .postArticle-wrapper
 {
     position: relative;
-    background: #000;
     width: 100%;
     -webkit-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0);
     box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0);
@@ -144,7 +140,6 @@
 .blockGroup-list .postArticle a
 {
     display: block;
-    color: #fff;
     margin-top: 0.75rem;
     font-weight: 300;
     text-align: center;
@@ -153,7 +148,6 @@
 .blockGroup-list li:nth-child(2).block .postArticle-title
 {
     display: block;
-    color: #fff;
     margin-top: 0.75rem;
     text-align: left;
     font-weight: 300;
@@ -162,7 +156,6 @@
 .blockGroup-list li:nth-child(3).block .postArticle-title
 {
     display: block;
-    color: #fff;
     margin-top: 0.75rem;
     font-weight: 300;
     text-align: right;
@@ -208,7 +201,6 @@
 .blockGroup-list li:nth-child(2).block .block-postMeta
 {
     display: block;
-    color: #fff;
     font-size: 15px;
     text-transform: uppercase;
     text-align: left;
@@ -219,7 +211,6 @@
     display: block;
     bottom: 0;
     padding-bottom: 10px;
-    color: #fff;
     font-size: 15px;
     text-transform: uppercase;
     text-align: right;
@@ -228,7 +219,6 @@
 .blockGroup-list .postArticle-title,
 .blockGroup-list .block-postMeta
 {
-    color: #fff;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
