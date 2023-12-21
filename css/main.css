@@ -38,7 +38,6 @@ a img:focus {
   outline: none;
 }
 blockquote {
-  color: #808080;
   font-style: italic;
 }
 hr.small {
@@ -59,7 +58,6 @@ hr.small {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
-  color: white;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 800;
@@ -71,19 +69,11 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
     padding: 20px;
-  }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
-    color: #0085a1;
   }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
-  }
-  .navbar-custom .nav li a:hover{
-    color: #0085a1;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -112,16 +102,6 @@ hr.small {
   .navbar-custom.is-fixed .navbar-brand {
     color: #ffffff;
   }
-  .navbar-custom.is-fixed .navbar-brand:hover {
-    color: #0085a1;
-  }
-  
-  .navbar-custom.is-fixed .nav li a:hover {
-    color: #0085a1;
-  }
-.navbar-custom.is-fixed .nav li a:active{
-    color: #6ec54d;
-  }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
@@ -145,7 +125,6 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -202,9 +181,6 @@ hr.small {
   text-shadow: 1px 1px 4px #000;
   font-size: 20px;
 }
-.intro-header .post-heading .meta a {
-  color: white;
-}
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
     font-size: 55px;
@@ -213,14 +189,6 @@ hr.small {
     font-size: 30px;
     text-shadow: 1px 1px 4px #000;
   }
-}
-.post-preview > a {
-  color: #f5f5f5;
-}
-.post-preview > a:hover,
-.post-preview > a:focus {
-  text-decoration: none;
-  color: #0085a1;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -233,18 +201,15 @@ hr.small {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  color: #808080;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -323,9 +288,6 @@ footer .copyright {
   top: 0;
   opacity: 1;
 }
-.floating-label-form-group-with-focus label {
-  color: #0085a1;
-}
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
@@ -344,8 +306,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color:#007A6A;
+  border: 1px solid #007A6A;
   color: white;
 }
 .pager {
@@ -359,7 +321,6 @@ form .row:first-child .floating-label-form-group {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background-color: black;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
@@ -368,11 +329,6 @@ form .row:first-child .floating-label-form-group {
     padding: 15px 25px;
   }
 }
-.pager li > a:hover,
-.pager li > a:focus {
-  color: white;
-  background-color: black;
-  }
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
@@ -380,27 +336,6 @@ form .row:first-child .floating-label-form-group {
   color: #808080;
   background-color: #404040;
   cursor: not-allowed;
-}
-::-moz-selection {
-  color: white;
-  text-shadow: none;
-  background: #0085a1;
-}
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #0085a1;
-}
-img::selection {
-  color: white;
-  background: transparent;
-}
-img::-moz-selection {
-  color: white;
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #0085a1;
 }
 .fa-stack-2x {
  color: black;
