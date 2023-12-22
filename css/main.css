@@ -58,10 +58,17 @@ hr.small {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
+  color: black;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+.navbar-custom .nav li a:hover {
+  color: #007A6A;
+}
+.navbar-custom .active a {
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -72,7 +79,6 @@ hr.small {
     padding: 20px;
   }
   .navbar-custom .nav li a {
-    color: white;
     padding: 20px;
   }
 }
@@ -94,7 +100,7 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -321,6 +327,7 @@ form .row:first-child .floating-label-form-group {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
+  background: none !important;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
