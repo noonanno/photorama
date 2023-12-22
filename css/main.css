@@ -67,8 +67,8 @@ hr.small {
 .navbar-custom .nav li a:hover {
   color: #007A6A;
 }
-.navbar-custom .active a {
-  color: black !important;
+.navbar-custom .navbar-nav > li.active > a {
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {

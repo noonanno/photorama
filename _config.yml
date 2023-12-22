@@ -11,7 +11,7 @@ instagram_username: ""
 # deviantart_username: ""
 # flickr_username: ""
 # discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
