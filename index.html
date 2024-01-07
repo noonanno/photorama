@@ -37,9 +37,8 @@ active: journal
 
                 <a href="{{ post.url | prepend: site.baseurl }}">
                   {% if post.image.feature %}
-                  <img src="{{ site.baseurl }}/img/postcover/{{ post.image.feature }}">
+                  <img src="{{ site.baseurl }}/img/{{ post.image.feature }}">
                   {% endif %}
-
 
                   <p class="post-title"
                     style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;">
