@@ -70,18 +70,25 @@ active: journal
   {% if paginator.total_pages > 1 %}
   <ul class="pager" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;">
     {% if paginator.previous_page %}
-    <li class="previous">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <li class="previous" style="position:relative;float:right;">
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+         style="position:absolute;right:0;top:0;width:fit-content;white-space:nowrap">
+        &larr; Newer Posts
+      </a>
     </li>
     {% endif %}
-
-    <span class="button-height"> Page {{paginator.page}} of {{paginator.total_pages}}</span>
 
     {% if paginator.next_page %}
-    <li class="next">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <li class="next" style="position:relative;float:right;">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+         style="position:absolute;right:0;top:0;width:fit-content;white-space:nowrap">
+      Older Posts &rarr;
+    </a>
     </li>
     {% endif %}
+    
+    <span class="button-height" style="padding-top: 15px;display: block;"> Page {{paginator.page}} of {{paginator.total_pages}}</span>
+
   </ul>
   {% endif %}
 
