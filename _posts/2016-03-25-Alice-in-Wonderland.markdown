@@ -1,10 +1,8 @@
 ---
 layout:     post
 title:      "Alice in Wonderland"
-subtitle:   "Lewis Carroll"
-active: journal
 image:
-  feature: "pc001.jpg"
+  feature: "postcover/pc001.jpg"
 date:       2016-03-25
 tags: [tag01, tag02]
 categories: [cat01, cat02]
