@@ -8,7 +8,7 @@ sections:
   - image_path: /img/gallery/DSC00101.jpg
     caption: Sakura
     url: https://www.youtube.com/watch?v=ibSd_N6pAwI
-  - image_path: /img/gallery/C0002.MP4
+  - image_path: /img/gallery/DSC00101.jpg
     caption: asdf
     url: https://www.youtube.com/watch?v=ibSd_N6pAwI
 - title: "Videography"
@@ -16,7 +16,7 @@ sections:
   - image_path: /img/gallery/DSC00101.jpg
     caption: Sakura
     url: https://www.youtube.com/watch?v=ibSd_N6pAwI
-  - image_path: /img/gallery/C0002.MP4
+  - image_path: /img/gallery/DSC00101.jpg
     caption: asdf
     url: https://www.youtube.com/watch?v=ibSd_N6pAwI
 ---
@@ -35,6 +35,8 @@ sections:
       <h2>{{page.album-title}}</h2>
 
       {% for section in page.sections %}
+      
+        <h3>{{section.title}}</h3>
 
         <!-- Gallery __-->
         <div class="gallery masonry-gallery">
