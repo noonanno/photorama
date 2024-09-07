@@ -35,6 +35,7 @@ comments :
 nav:
   - JOURNAL: "/photorama/"
   - GALLERY: "/photorama/gallery/"  
+  - VIDEOS: "/photorama/videos/"  
   - ABOUT: "/photorama/about/"
 
 # All translation keys

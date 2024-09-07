@@ -1,0 +1,88 @@
+---
+layout: page
+title: " "
+active: videos
+sections:
+- title: "Edits"
+  videos:
+  - image_path: /img/gallery/DSC00101.jpg
+    caption: Sakura
+    url: https://www.youtube.com/watch?v=ibSd_N6pAwI
+  - image_path: /img/gallery/C0002.MP4
+    caption: asdf
+    url: https://www.youtube.com/watch?v=ibSd_N6pAwI
+- title: "Videography"
+  videos:
+  - image_path: /img/gallery/DSC00101.jpg
+    caption: Sakura
+    url: https://www.youtube.com/watch?v=ibSd_N6pAwI
+  - image_path: /img/gallery/C0002.MP4
+    caption: asdf
+    url: https://www.youtube.com/watch?v=ibSd_N6pAwI
+---
+
+<html class="no-js" lang="en">
+
+<head>
+  <meta content="charset=utf-8">
+</head>
+
+<body>
+
+  <section id="content" role="main">
+    <div class="wrapper">
+      <br><br>
+      <h2>{{page.album-title}}</h2>
+
+      {% for section in page.sections %}
+
+        <!-- Gallery __-->
+        <div class="gallery masonry-gallery">
+
+          {% for video in section.videos %}
+
+          <figure class="gallery-item">
+            <header class='gallery-icon'>
+
+              <a href="{{ video.url }}" class="popup" title="{{ image.caption }}">
+                <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+
+            </header>
+            <figcaption class='gallery-caption'>
+              <div class="entry-summary" id="{{ image.caption }}">
+                <h3>{{video.caption}}</h3>
+              </div>
+            </figcaption>
+          </figure>
+
+          {% endfor %}
+
+        </div>
+
+      {% endfor %}
+
+    </div><!-- END .wrapper -->
+  </section>
+
+  <!-- jQuery -->
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script src="{{ site.baseurl }}/js/retina.min.js"></script>
+  <!-- include Masonry -->
+  <script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+  <!-- include mousewheel plugins -->
+  <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+  <!-- include carousel plugins -->
+  <script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+  <!-- include svg line drawing plugin -->
+  <script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+  <!-- include custom script -->
+  <script src="{{ site.baseurl }}/js/scripts.js"></script>
+  <!-- Modernizr -->
+  <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+
+</body>
+
+</html>
